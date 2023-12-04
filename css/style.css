@@ -62,8 +62,8 @@ ul li a {
   margin-bottom: 10px;
   min-width: 250px;
 
-  /* DEBUG */
-  background-color: lightgrey;
+  /*   DEBUG
+  background-color: lightgrey; */
   padding: 20px;
   min-height: 100px;
 }
@@ -136,4 +136,11 @@ footer ul {
   color: white;
   list-style: none;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .container .legal__aspect .body__list {
+  display: flex;
+  flex-direction: row;
 }
