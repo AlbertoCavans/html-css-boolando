@@ -1,0 +1,43 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SETTINGS */
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+header {
+  margin-bottom: 30px;
+
+  /* DEBUG */
+  background-color: lightgrey;
+  padding: 20px;
+  min-height: 100px;
+}
+
+/* SALE ITEMS */
+
+.sale__items .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% / 3 - 10px);
+  margin-bottom: 20px;
+
+  /* DEBUG */
+  background-color: lightgrey;
+  padding: 20px;
+  min-height: 100px;
+}
