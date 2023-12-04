@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* SETTINGS */
@@ -15,13 +16,37 @@
 }
 
 /* HEADER */
-header {
+.header {
+  background-color: rgb(255 105 0);
   margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px groove whitesmoke;
 
   /* DEBUG */
-  background-color: lightgrey;
   padding: 20px;
   min-height: 100px;
+}
+
+.header .main__logo #main__logo {
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  padding: 10px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 /* SALE ITEMS */
@@ -34,10 +59,27 @@ header {
 
 .card {
   width: calc(100% / 3 - 10px);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  min-width: 250px;
 
   /* DEBUG */
   background-color: lightgrey;
   padding: 20px;
   min-height: 100px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:hover .ov__img {
+  display: none;
+}
+
+.card .un__img {
+  display: none;
+}
+
+.card:hover .un__img {
+  display: inline-block;
 }
