@@ -119,3 +119,21 @@ ul li a {
   text-decoration: line-through;
   font-size: 0.9rem;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: hsl(0deg 0% 10.2%);
+}
+
+footer .container {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  color: white;
+  list-style: none;
+  display: flex;
+}
