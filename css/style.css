@@ -35,7 +35,7 @@
   height: 50px;
 }
 
-ul {
+header ul {
   list-style: none;
   display: flex;
 }
@@ -68,6 +68,7 @@ ul li a {
   min-height: 100px;
 }
 
+/* CARD IMGS */
 .card img {
   width: 100%;
 }
@@ -81,5 +82,40 @@ ul li a {
 }
 
 .card:hover .un__img {
-  display: inline-block;
+  display: block;
+}
+
+/* CARD INFO */
+
+.item__info ul {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item__info ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.item__info ul .brand {
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.item__info ul .item__name {
+  font-weight: 600;
+}
+
+.item__info ul .price {
+  font-weight: 600;
+  color: red;
+}
+
+.item__info ul .price .old__price {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 0.9rem;
 }
